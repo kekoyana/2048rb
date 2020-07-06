@@ -2,5 +2,8 @@ AllCops:
   TargetRubyVersion: 2.7
   NewCops: enable
 
+Style/AsciiComments:
+  Enabled: false
+
 Style/Documentation:
   Enabled: false
