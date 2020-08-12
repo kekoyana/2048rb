@@ -48,7 +48,7 @@ class Game
   def wait_input
     input = ''
     dirs = INPUTS.keys.map(&:to_s)
-    input = STDIN.getch until dirs.include?(input)
+    input = $stdin.getch until dirs.include?(input)
     input
   end
 end
