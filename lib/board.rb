@@ -58,7 +58,7 @@ class Board
 
   def to_s
     @tiles.map do |tiles|
-      tiles.map { sprint_tile(_1) }.join('|') + "\n"
+      "#{tiles.map { sprint_tile(_1) }.join('|')}\n"
     end
   end
 
