@@ -1,9 +1,6 @@
 # frozen_string_literal: true
 
 class Game
-  class Clear < StandardError; end
-  class Over < StandardError; end
-
   INPUTS = {
     q: :move_left,
     w: :move_up,
